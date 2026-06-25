@@ -1,0 +1,9 @@
+{
+  "tussam": {
+    "name": "TUSSAM",
+    "icon": "data/assets/TUSSAM.png",
+    "linesUrl": "https://services1.arcgis.com/hcmP7kr0Cx3AcTJk/arcgis/rest/services/TUSSAM_Lineas/FeatureServer/0/query?where=1%3D1&outFields=Linea,NombreLinea,LabelLinea,Color&outSR=4326&returnGeometry=false&f=json",
+    "stopsUrl": "https://services1.arcgis.com/hcmP7kr0Cx3AcTJk/arcgis/rest/services/TUSSAM_Paradas/FeatureServer/0/query?where=1%3D1&outFields=LabelLinea,Linea,Nombre,Nodo&returnGeometry=false&outSR=4326&f=json",
+    "type": "bus"
+  }
+}
